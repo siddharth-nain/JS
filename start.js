@@ -29,10 +29,10 @@ console.log("Hello: "+ Name);
 // and print their metadata with console.log()
 function listNFTs () {
     for (let i = 0; i< place.length; i++) {
-      console.log("\n Name"+place[i].Name);
-      console.log("\n Figure"+place[i].Figure);
-      console.log("\n Weight"+place[i].Weight);
-      console.log("\n Other"+place[i].Others);
+      console.log("\nName "+place[i].Name);
+      console.log("Figure "+place[i].Figure);
+      console.log("Weight "+place[i].Weight);
+      console.log("Other "+place[i].Others);
     }
 }
 

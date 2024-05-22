@@ -30,9 +30,9 @@ console.log("Hello: "+ Name);
 function listNFTs () {
     for (let i = 0; i< place.length; i++) {
       console.log("\n Name"+place[i].Name);
-      console.log("\n Figure"+place[i].style);
-      console.log("\n Weight"+place[i].weights);
-      console.log("\n Other"+place[i].misl);
+      console.log("\n Figure"+place[i].Figure);
+      console.log("\n Weight"+place[i].Weight);
+      console.log("\n Other"+place[i].Others);
     }
 }
 
